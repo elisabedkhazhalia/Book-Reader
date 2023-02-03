@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398565503794",
+    "project_id": "gmerto-4cc9a",
+    "storage_bucket": "gmerto-4cc9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398565503794:android:b5576584af6c6d01d89d2b",
+        "android_client_info": {
+          "package_name": "com.example.gmerto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398565503794-9feojb0ov7d7o5bfklih88pv7e61s9u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlpzZc-99FKZ02Wjr8Auw67TJ0p805LVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398565503794-9feojb0ov7d7o5bfklih88pv7e61s9u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

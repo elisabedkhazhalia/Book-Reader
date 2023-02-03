@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment2">
+
+    <fragment
+        android:id="@+id/firstFragment2"
+        android:name="com.example.gmerto.Fragments.LoginFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_firstFragment2_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_firstFragment2_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_firstFragment2_to_forgotPassFragment"
+            app:destination="@id/forgotPassFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.gmerto.Fragments.ShesvlaFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_shesvla" >
+        <action
+            android:id="@+id/action_secondFragment_to_profileFragment3"
+            app:destination="@id/profileFragment3" />
+
+        <action
+            android:id="@+id/action_secondFragment_to_firstFragment2"
+            app:destination="@id/firstFragment2" />
+        <action
+            android:id="@+id/action_secondFragment_to_changePasswordFragment2"
+            app:destination="@id/changePasswordFragment2" />
+
+        <action
+            android:id="@+id/action_secondFragment_to_libraryFragment3"
+            app:destination="@id/libraryFragment3" />
+        <action
+            android:id="@+id/action_secondFragment_to_pdfViewFragment"
+            app:destination="@id/pdfViewFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_fragmentUploadPdf"
+            app:destination="@id/fragmentUploadPdf" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.gmerto.Fragments.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_firstFragment2"
+            app:destination="@id/firstFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassFragment"
+        android:name="com.example.gmerto.Fragments.ForgotPassFragment"
+        android:label="fragment_forgot_pass"
+        tools:layout="@layout/fragment_forgot_pass" >
+        <action
+            android:id="@+id/action_forgotPassFragment_to_firstFragment2"
+            app:destination="@id/firstFragment2" />
+        <action
+            android:id="@+id/action_forgotPassFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment3"
+        android:name="com.example.gmerto.FragmentsProfile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment3_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/changePasswordFragment2"
+        android:name="com.example.gmerto.FragmentsProfile.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+
+    <fragment
+        android:id="@+id/libraryFragment3"
+        android:name="com.example.gmerto.FragmentsProfile.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" >
+
+        <action
+            android:id="@+id/action_libraryFragment3_to_pdfViewFragment"
+            app:destination="@id/pdfViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfViewFragment"
+        android:name="com.example.gmerto.Fragments.PdfViewFragment"
+        android:label="PdfViewFragment"
+        tools:layout="@layout/fragment_pdf_view" >
+        <argument
+            android:name="name"
+            app:argType="string"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentUploadPdf"
+        android:name="com.example.gmerto.Fragments.FragmentUploadPdf"
+        android:label="FragmentUploadPdf" />
+</navigation>
