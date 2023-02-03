@@ -8,7 +8,7 @@
 - [Requirements](#requirements)
 - [Creators](#creators)
 
-##Screenshots
+## Screenshots
 
 ![A screenshot of BeReal app Log-In](https://imagizer.imageshack.com/img924/8595/lZrzjR.jpg)
 ![A screenshot of BeReal app Log-In](https://imagizer.imageshack.com/img922/5154/9OGcdO.jpg)
