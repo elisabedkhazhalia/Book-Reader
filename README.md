@@ -10,7 +10,7 @@
 
 ## Screenshots
 
-![A screenshot of BeReal app Log-In](https://imagizer.imageshack.com/img924/8595/lZrzjR.jpg)
+
 ![A screenshot of BeReal app Log-In](https://imagizer.imageshack.com/img922/5154/9OGcdO.jpg)
 ![A screenshot of BeReal app Log-In](https://imagizer.imageshack.com/img924/7439/bWvECf.jpg)
 ![A screenshot of BeReal app Log-In](https://imagizer.imageshack.com/img923/9756/2XBIKL.jpg)
